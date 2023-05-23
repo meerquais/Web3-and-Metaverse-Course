@@ -1,0 +1,92 @@
+.ph-scale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    margin: 100px auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    color: rgb(187, 183, 183);
+  }
+
+  .ph-level {
+    width: 100%;
+    height: 30px;
+  }
+
+  /* pH level colors */
+  .ph-level-01 {
+    background-color: #bdc1c1;
+  }
+  .ph-level-0 {
+    background-color: #4182c4;
+  }
+
+  .ph-level-1 {
+    background-color: #4992d1;
+  }
+
+  .ph-level-2 {
+    background-color: #4f9fd8;
+  }
+
+  .ph-level-3 {
+    background-color: #55aadf; 
+  }
+
+  .ph-level-4 {
+    background-color: #5bb6e7; 
+  }
+
+  .ph-level-5 {
+    background-color: #73c1ec;
+  }
+
+  .ph-level-6 {
+    background-color: #8ecaed;
+  }
+
+  .ph-level-7 {
+    background-color: #56b383; 
+  }
+
+  .ph-level-8 {
+    background-color: #f1b0cf; 
+  }
+
+  .ph-level-9 {
+    background-color: #ef9dbf;
+  }
+
+  .ph-level-10 {
+    background-color: #ed8ab3;
+  }
+
+  .ph-level-11 {
+    background-color: #eb78a5; 
+  }
+
+  .ph-level-12 {
+    background-color: #e96693; 
+  }
+
+  .ph-level-13 {
+    background-color: #e85387;
+  }
+  .ph-level-14 {
+    background-color: #e7377e;
+  }
+  .ph-level-15 {
+    background-color: #bdc1c1; 
+  }
+
+  /* pH level labels */
+  .ph-label {
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    top: -20px;
+  }

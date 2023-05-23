@@ -1,0 +1,230 @@
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Public Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --Dark-Blue: hsl(233, 26%, 24%);
+  --Lime-Green: hsl(136, 65%, 51%);
+  --Bright-Cyan: hsl(192, 70%, 51%);
+  --Grayish-Blue: hsl(233, 8%, 62%);
+  --Light-Grayish-Blue: hsl(220, 16%, 96%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--Grayish-Blue);
+  transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  color: var(--Dark-Blue);
+}
+nav ul li {
+  margin-left: 20px;
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.btn {
+  background: linear-gradient(to right, var(--Lime-Green), var(--Bright-Cyan));
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: var(--White);
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background: linear-gradient(to right, var(--Bright-Cyan), var(--Lime-Green));
+  cursor: pointer;
+}
+.header-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 40px;
+}
+.header-section {
+  background-color: var(--Very-Light-Gray);
+}
+.header-text {
+  flex: 1 0 40%;
+}
+.header-image {
+  flex: 1 0 60%;
+  position: relative;
+}
+
+.header-image img:first-child {
+  position: relative;
+  transform: scale(1.6);
+  top: -50px;
+  bottom: 0px;
+  right: -200px;
+}
+.header-image img:last-child {
+  position: absolute;
+  transform: scale(1.1);
+  top: -160px;
+  /* bottom: 0px; */
+  right: -200px;
+}
+.nav-section {
+  z-index: 1;
+  position: relative;
+  background-color: var(--White);
+}
+.header-text h1 {
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.header-text p {
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+.feauter {
+  background-color: var(--Light-Grayish-Blue);
+  padding: 100px 0px;
+}
+.feauter .container h1 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.feauter .container p {
+  margin-bottom: 30px;
+  color: var(--Grayish-Blue);
+}
+.card-wraper {
+  display: flex;
+  margin-top: 100px;
+}
+.card-wraper > * + * {
+  margin-left: 30px;
+}
+.card-wraper .card img {
+  margin-bottom: 30px;
+}
+.card-wraper .card p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.card-wraper .card h3 {
+  font-weight: 300;
+}
+
+/* artical section */
+.artical-section {
+  padding: 100px 0px;
+  background-color: var(--Very-Light-Gray);
+}
+.artical-section .container h1 {
+  margin-bottom: 30px;
+}
+.artical-wraper {
+  display: flex;
+}
+.artical-wraper > * + * {
+  margin-left: 30px;
+}
+
+.artical-wraper img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.artical-wraper .content {
+  padding: 20px;
+}
+.artical-wraper .content a {
+  display: inline-block;
+  padding: 10px 0px;
+  text-decoration: none;
+  color: var(--Dark-Blue);
+  transition: all 0.3s ease-in-out;
+}
+.artical-wraper .content a:hover {
+  color: var(--Lime-Green);
+}
+.artical-wraper .content p {
+  font-size: 16px;
+  color: var(--Grayish-Blue);
+}
+footer {
+  background: var(--Dark-Blue);
+  padding: 30px;
+}
+footer ul {
+  list-style-type: none;
+}
+
+footer ul.social {
+  display: flex;
+  margin-top: 35px;
+}
+
+footer ul.social > * + * {
+  margin-left: 20px;
+}
+footer .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .content a {
+  text-decoration: none;
+  color: var(--Grayish-Blue);
+  transition: all 0.3s ease-in-out;
+}
+footer .content a:hover {
+  color: var(--Light-Grayish-Blue);
+}
+footer .content li {
+  margin-bottom: 8px;
+}
+
+footer .reserved {
+  text-align: right;
+}
+
+footer .copyright {
+  color: var(--Grayish-Blue);
+  margin-top: 20px;
+  font-size: 18px;
+}
